@@ -1,0 +1,29 @@
+
+.contenedor
+{
+    align-items: center;
+    border-radius: 20px; ;
+    background-color:rgb(190, 188, 188);
+    display: none;
+    width: 30%;
+    position: fixed;
+    left: calc(45vw - 150px);
+    
+
+    
+}
+.buttonGuardar{
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgb(155, 192, 255);
+    color: white;
+}
+
+
+.buttonCancelar{
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgb(155, 192, 255);
+    color: white;
+}
+
