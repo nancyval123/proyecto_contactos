@@ -8,9 +8,9 @@ function Contacto(props){
     }
     return(
         <div class="parrafo">
-            <p>{props.nombre}</p>
-           <p> {props.correo}</p>
-            <p>{props.telefono}</p>
+            <p class="p">{props.nombre}</p>
+           <p class="p"> {props.correo}</p>
+            <p class="p">{props.telefono}</p>
            <button id="borrar" onClick={borrar}>Borrar</button>
         </div>
     )
